@@ -79,7 +79,7 @@ def static():
     check("marketplace.json lists the plugin", bool(entry))
     check("marketplace version == plugin version", entry.get("version") == m.get("version"), (entry.get("version"), m.get("version")))
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    check("README: install commands and creator", "copilot plugin install proteuscrypto/wapliss-for-copilot" in readme and "netdigitaltech" in readme)
+    check("README: install commands and creator", "copilot plugin install wapliss-whatsapp@wapliss" in readme and "netdigitaltech" in readme)
 
 
 def live():

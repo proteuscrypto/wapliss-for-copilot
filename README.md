@@ -45,7 +45,7 @@ server; it stores no account data, messages or credentials.
 
 | Surface | How | Status |
 | --- | --- | --- |
-| Copilot CLI | `copilot plugin install proteuscrypto/wapliss-for-copilot` | Works (tested with Copilot CLI 1.0.109) |
+| Copilot CLI | `copilot plugin marketplace add proteuscrypto/wapliss-for-copilot` then `copilot plugin install wapliss-whatsapp@wapliss` | Works (tested with Copilot CLI 1.0.109) |
 | VS Code (Copilot Chat, agent mode) | **Chat: Install Plugin from Source** → `https://github.com/proteuscrypto/wapliss-for-copilot`, or the MCP install link below | Supported (Agent Plugins 1.0) |
 | GitHub Copilot app | **Customize → Plugins** → add marketplace `proteuscrypto/wapliss-for-copilot` | Supported (Agent Plugins 1.0) |
 | Copilot cloud agent | Not recommended: it runs unattended and cannot complete the browser sign-in | — |
@@ -57,10 +57,7 @@ server; it stores no account data, messages or credentials.
 2. Install the plugin:
 
    ```bash
-   # Copilot CLI: install straight from GitHub
-   copilot plugin install proteuscrypto/wapliss-for-copilot
-
-   # or add this repository as a marketplace
+   # Copilot CLI: add this repository as a marketplace, then install
    copilot plugin marketplace add proteuscrypto/wapliss-for-copilot
    copilot plugin install wapliss-whatsapp@wapliss
    ```
@@ -233,7 +230,7 @@ GitHub Copilot con el servidor MCP de Wapliss. Lee y resume chats y grupos y
 envía mensajes, archivos, ubicaciones y encuestas, siempre con tu confirmación.
 
 Cómo empezar: crea tu cuenta gratis y vincula tu teléfono; en Copilot CLI
-ejecuta `copilot plugin install proteuscrypto/wapliss-for-copilot`; en VS Code,
+ejecuta `copilot plugin marketplace add proteuscrypto/wapliss-for-copilot` y `copilot plugin install wapliss-whatsapp@wapliss`; en VS Code,
 **Chat: Install Plugin from Source** con la URL del repositorio. Cuando Copilot
 lo pida, inicia sesión en Wapliss y autoriza el acceso.
 
