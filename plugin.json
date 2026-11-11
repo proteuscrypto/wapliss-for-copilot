@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wapliss-whatsapp",
+  "version": "1.0.0",
+  "description": "Use your own WhatsApp from GitHub Copilot through the Wapliss MCP server: read and summarize chats and groups, see your latest messages, and send texts, files, locations, contacts and polls with your confirmation.",
+  "author": {
+    "name": "netdigitaltech",
+    "url": "https://wapliss.com/"
+  },
+  "homepage": "https://wapliss.com/integrations#copilot",
+  "repository": "https://github.com/proteuscrypto/wapliss-for-copilot",
+  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "wapliss",
+    "mcp",
+    "mcp-server",
+    "messaging",
+    "chats",
+    "groups",
+    "github-copilot",
+    "ai-assistant"
+  ]
+}

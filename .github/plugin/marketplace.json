@@ -1,0 +1,24 @@
+{
+  "name": "wapliss",
+  "metadata": {
+    "description": "Wapliss plugins for GitHub Copilot: use your own WhatsApp from VS Code, Copilot CLI and the Copilot app.",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "netdigitaltech",
+    "url": "https://wapliss.com/"
+  },
+  "plugins": [
+    {
+      "name": "wapliss-whatsapp",
+      "source": "./",
+      "description": "Use your own WhatsApp from GitHub Copilot through the Wapliss MCP server: read and summarize chats and groups and send messages with your confirmation.",
+      "version": "1.0.0",
+      "author": { "name": "netdigitaltech", "url": "https://wapliss.com/" },
+      "homepage": "https://wapliss.com/integrations#copilot",
+      "repository": "https://github.com/proteuscrypto/wapliss-for-copilot",
+      "license": "MIT",
+      "keywords": ["whatsapp", "mcp", "messaging"]
+    }
+  ]
+}
